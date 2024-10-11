@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.projects-section h1{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-evenly;  
+  font-size: 35px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.projects-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-all{
+  display: flex;
+  width: 350px;
+  height: 450px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.project-all:hover{
+  background-color: #D1C3B6;
+  
+}
+
+.project-img{
+  width: 300px;
+  height: 210px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.project-info {
+  width: 300px;
+}
+
+.tools{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project-detail{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+  height: 48px;
+}
+
+.go-button{
+  border: solid;
+  background-color: transparent;
+  border-color: #6B7158;
+  color: #6B7158;
+  width: 150px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.go-button:hover{
+  background-color: #6B7158;
+  color: #D1C3B6;
+}
